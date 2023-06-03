@@ -1,0 +1,68 @@
+.loginFrom{
+    width: 96%;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+
+}
+.loginFrom h2{
+    text-align: center;
+    color: #666;
+    line-height: 3em;
+    margin: 16px 0 10px 0;
+    letter-spacing: 4px;
+    font: normal 24px/1 Microsoft YaHei, sans-serif ;
+}
+
+.loginFrom_content{
+    margin-bottom: 20px;
+}
+fieldset{
+    border: none;
+    padding: 10px 10px 0;
+    font-size: 12px;
+}
+fieldset input[type=text], fieldset input[type=password] {
+    line-height: 2em;
+    font-size: 12px;
+    height: 24px;
+    padding: 3px 8px;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    margin: 10px 10px 0;
+}
+fieldset input[type=submit] {
+    text-align: center;
+    padding: 2px 20px;
+    line-height: 2em;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background: -webkit-gradient(linear, left top, left 28, from(#EF5356), color-stop(0%, #FF0000), to(#EF5356));
+    background: -moz-linear-gradient(top, #EF5356, #FF0000 0, #EF5356 28px);
+    background: -o-linear-gradient(top, #EF5356, #FF0000 0, #EF5356 28px);
+    background: linear-gradient(top, #EF5356, #FF0000 0, #EF5356 28px);
+    height: 35px;
+    cursor: pointer;
+    letter-spacing: 6px;
+    margin-left: 10px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+}
+fieldset input[type=submit]:hover{
+    background: -webkit-gradient(linear,left top,left 28,from(#FF0000),color-stop(0%,#EF5356),to(#FF0000));
+    background: -moz-linear-gradient(top,#FF0000,#FF6900 0,#FF0000 28px);
+    background: -o-linear-gradient(top,#FF0000,#FF6900 0,#FF0000 28px);
+    background: linear-gradient(top,#FF0000,#FF6900 0,#FF0000 28px);
+}
+
+fieldset input[type=checkbox]{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+fieldset a{
+    font-size: 12px;
+    margin: 6px 0 0 28px;
+    text-decoration: none;
+}
